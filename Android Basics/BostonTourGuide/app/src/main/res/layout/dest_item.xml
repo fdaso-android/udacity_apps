@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/location_imageView"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:contentDescription="Image of Location"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/text_container">
+
+        <TextView
+            tools:text="Location"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationName_textView"
+            android:gravity="top"
+            android:paddingLeft="8dp"
+            android:layout_toLeftOf="@+id/openInBrowser_imageView"
+            android:layout_toStartOf="@+id/openInBrowser_imageView"/>
+
+        <TextView
+            tools:text="Description"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:id="@+id/locationDescription_textView"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textStyle="italic"
+            android:textSize="12sp"
+            android:gravity="top"
+            android:paddingLeft="16dp"
+            android:layout_toLeftOf="@+id/openInBrowser_imageView"
+            android:layout_toStartOf="@+id/openInBrowser_imageView"
+            android:layout_below="@+id/locationName_textView"
+            android:layout_alignParentBottom="true"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_open_in_browser_black_36dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/openInBrowser_imageView"
+            android:layout_marginRight="16dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

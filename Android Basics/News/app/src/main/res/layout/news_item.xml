@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/news"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/stock_imageView"
+            android:layout_marginRight="16dp"/>
+        
+        <TextView
+            tools:text="Article Title"
+            android:id="@+id/articleTitle_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/stock_imageView"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            tools:text="News Paper Section"
+            android:id="@+id/newsSection_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@id/stock_imageView"
+            android:layout_below="@id/articleTitle_textView"/>
+
+        <TextView
+            tools:text="Web Publication Date"
+            android:id="@+id/webPublicationDate_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_toRightOf="@id/stock_imageView"
+            android:layout_below="@id/newsSection_textView"
+            android:layout_marginLeft="8dp"/>
+
+
+    </RelativeLayout>
+    
+</LinearLayout>

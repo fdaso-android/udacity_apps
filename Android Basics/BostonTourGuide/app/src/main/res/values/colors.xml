@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryLight">#64B5F6</color>
+    <color name="colorParksBackground">#FFB300</color>
+    <color name="colorMuseumsBackground">#E57373</color>
+    <color name="colorActivitiesBackground">#FDD835</color>
+    <color name="colorFoodBackground">#9CCC65</color>
+    <color name="tan_background">#D2B48C</color>
+</resources>

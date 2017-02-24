@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Space Quiz</string>
+    <string name="welcome">Welcome to the Space Quiz! Please enter your name below:</string>
+    <string name="name">Name</string>
+    <string name="start_quiz">Start The Quiz!</string>
+    <string name="start_screen_instruction">Once you\'ve entered your name, press the button below to begin!</string>
+    <string name="placeholder_text">Quiz Question Here</string>
+    <string name="choice_1">Choice 1</string>
+    <string name="choice_2">Choice 2</string>
+    <string name="choice_3">Choice 3</string>
+    <string name="choice_4">Choice 4</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="true_text">True</string>
+    <string name="false_text">False</string>
+    <string name="edit_text_number">Enter Number Here</string>
+    <string name="play_again">Play Again?</string>
+    <string name="submit">Submit</string>
+    <string name="question3_choice1">Mars</string>
+    <string name="question3_choice2">Jupiter</string>
+    <string name="question3_choice3">Uranus</string>
+    <string name="question3_choice4">Neptune</string>
+    <string name="question4_choice1">Mercury</string>
+    <string name="question4_choice2">Venus</string>
+    <string name="question4_choice3">Saturn</string>
+    <string name="question4_choice4">Neptune</string>
+
+
+</resources>

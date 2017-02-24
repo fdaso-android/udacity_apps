@@ -1,0 +1,99 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Boston Tour Guide</string>
+
+    <!-- Category name for parks [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for museums [CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for activities [CHAR LIMIT=20] -->
+    <string name="category_sites">Sites</string>
+
+    <!-- Category name for the food [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Park Name, Description, and URL Strings -->
+    <string name="boston_public_garden">Boston Public Garden</string>
+    <string name="boston_common">Boston Common</string>
+    <string name="back_bay_fens">Back Bay Fens</string>
+    <string name="phillips_street_park">Phillips Street Park</string>
+    <string name="franklin_park">Franklin Park</string>
+    <string name="east_boston_memorial_park">East Boston Memorial Park</string>
+    <string name="boston_public_garden_description">Placid, verdant, circa-1837 city park with a lagoon, boat rides, fountains, and other sights.</string>
+    <string name="boston_common_description">Storied, nearly 50-acre urban park that hosted British troops during the American Revolution.</string>
+    <string name="back_bay_fens_description">This large greenspace has multiple gardens, playgrounds, ball fields, memorials, plus picnic areas.</string>
+    <string name="phillips_street_park_description">Phillips Street Play Area is a newly renovated park, located in Beacon Hill Neighborhood of Boston, MA.</string>
+    <string name="franklin_park_description">This large natural area with fields, wetlands, and ponds offers a zoo, golf course, and sports courts.</string>
+    <string name="boston_public_garden_url">http://friendsofthepublicgarden.org/our-parks/public-garden/</string>
+    <string name="east_boston_memorial_park_description">This urban recreational area offers a children\'s playground, spray fountains, and sport fields.</string>
+    <string name="boston_common_url">http://friendsofthepublicgarden.org/our-parks/boston-common/</string>
+    <string name="back_bay_fens_url">https://www.boston.gov/parks/back-bay-fens</string>
+    <string name="phillips_street_park_url">http://playground-hoppingmass.blogspot.com/2013/07/beacon-hill-phillips-street-park.html</string>
+    <string name="franklin_park_url">https://www.boston.gov/parks/franklin-park</string>
+    <string name="east_boston_memorial_park_url">https://www.yelp.com/biz/east-boston-memorial-park-boston</string>
+
+    <!-- Food Name, Description, and URL Strings -->
+    <string name="mei_mei">Mei Mei</string>
+    <string name="chicken_and_rice_guys">Chicken and Rice Guys</string>
+    <string name="five_napkin_burger">5 Napkin Burger</string>
+    <string name="clover_food_lab">Clover Food Lab</string>
+    <string name="bon_me">Bon Me</string>
+    <string name="legal_sea_foods">Legal Sea Foods</string>
+    <string name="mei_mei_description">Upbeat outfit serving carefully sourced Asian-American fusion fare like scallion pancake sandwiches.</string>
+    <string name="chicken_and_rice_guys_description">Spin-off of a halal food truck offers Middle Eastern standards like gyros served over the counter.</string>
+    <string name="five_napkin_burger_description">Modern bistro chain serving gourmet meat and veggie burgers. Some locations offer sushi and tacos.</string>
+    <string name="clover_food_lab_description">This food is local, it’s just-cut, when we can it is organic.</string>
+    <string name="bon_me_description">Cool cafe for counter-serve Vietnamese street food such as rice and noodle bowls, plus sandwiches.</string>
+    <string name="legal_sea_food_description">Specializing in upmarket seafood, this contemporary chain also serves steaks and cocktails.</string>
+    <string name="mei_mei_url">http://www.meimeiboston.com/</string>
+    <string name="chicken_and_rice_guys_url">http://cnrguys.com/</string>
+    <string name="five_napkin_burger_url">http://5napkinburger.com/locations/back-bay/</string>
+    <string name="clover_food_lab_url">https://www.cloverfoodlab.com/locations/</string>
+    <string name="bon_me_url">http://www.bonmetruck.com/fort-point</string>
+    <string name="legal_sea_foods_url">https://www.legalseafoods.com/restaurants/boston-long-wharf-63</string>
+
+    <!-- Museum Name, Description, and URL Strings -->
+    <string name="fine_arts">Museum of Fine Arts</string>
+    <string name="science">Museum of Science</string>
+    <string name="isabella_stewart_gardner">Isabella Stewart Gardner Museum</string>
+    <string name="uss_constitution">USS Constitution Museum</string>
+    <string name="institute_of_contemporary_art">Institute of Contemporary Art</string>
+    <string name="jfk_presidential_library">John F. Kennedy Presidential Library</string>
+    <string name="fine_arts_description">The Museum of Fine Arts in Boston, Massachusetts, is the fourth largest museum in the United States.</string>
+    <string name="science_description">The Museum of Science is a Boston, Massachusetts landmark, located in Science Park, a plot of land spanning the Charles River.</string>
+    <string name="isg_description">Boston museum of international art founded by collector and philanthropist Isabella Stewart Gardner.</string>
+    <string name="uss_description">The USS Constitution Museum is located in the Charlestown Navy Yard, which is part of the Boston National Historical Park in Boston, Massachusetts, United States</string>
+    <string name="ica_description">The museum was founded as the Boston Museum of Modern Art in 1936 with a mission to exhibit contemporary art.</string>
+    <string name="jfk_description">The John F. Kennedy Presidential Library and Museum is the presidential library and museum of the 35th President of the United States.</string>
+    <string name="mfa_url">http://www.mfa.org/</string>
+    <string name="science_url">https://ussconstitutionmuseum.org/</string>
+    <string name="isg_url">http://www.gardnermuseum.org/home</string>
+    <string name="uss_url">https://ussconstitutionmuseum.org/</string>
+    <string name="ica_url">https://www.icaboston.org/</string>
+    <string name="jfk_url">https://www.jfklibrary.org/</string>
+
+    <!-- Activities Name, Description, and URL Strings -->
+    <string name="fenway_park">Fenway Park</string>
+    <string name="boston_harbor">Boston Harbor</string>
+    <string name="faneuil_hall">Faneuil Hall</string>
+    <string name="new_england_aquarium">New England Aquarium</string>
+    <string name="freedom_trail">Freedom Trail</string>
+    <string name="paul_revere_house">Paul Revere House</string>
+    <string name="fp_description">Fenway Park is a baseball park located in Boston, at 4 Yawkey Way near Kenmore Square. It is the oldest ballpark in MLB.</string>
+    <string name="bh_description">Boston Harbor is a natural harbor and estuary of Massachusetts Bay, and is located adjacent to the city of Boston, Massachusetts.</string>
+    <string name="nea_description">The New England Aquarium is an aquarium located in Boston, Massachusetts.</string>
+    <string name="ft_description">The Freedom Trail is a 2.5-mile-long path through downtown Boston, Massachusetts that passes by 16 locations significant to the history of the United States.</string>
+    <string name="prh_description">The Paul Revere House was the colonial home of American patriot Paul Revere during the time of the American Revolution.</string>
+    <string name="fh_description">Shopping center with many stores and restaurants comprising 3 historic market buildings and a promenade.</string>
+    <string name="fp_url">http://boston.redsox.mlb.com/bos/ballpark/index.jsp</string>
+    <string name="bh_url">https://en.wikipedia.org/wiki/Boston_Harbor</string>
+    <string name="fh_url">http://faneuilhallmarketplaceboston.com/</string>
+    <string name="nea_url">http://www.neaq.org/</string>
+    <string name="prh_url">https://www.paulreverehouse.org/</string>
+    <string name="ft_url">https://www.thefreedomtrail.org/</string>
+</resources>

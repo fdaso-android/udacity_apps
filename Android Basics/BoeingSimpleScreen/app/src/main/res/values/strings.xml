@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Boeing Simple Screen</string>
+    <string name="description_header">Description:</string>
+    <string name="boeing_description">The Boeing Company is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, and satellites worldwide.</string>
+    <string name="contact_location">Contact Information and Address</string>
+    <string name="address">\t • Address: 1200 Redstone Gateway, Huntsville, AL 35808</string>
+    <string name="phone_number">\t • Phone Number: (256) 461–5581</string>
+    <string name="website">\t • Website: boeing.com</string>
+    <string name="operation_hours">\t •  Business Hours: Monday-Friday, 9 AM – 5 PM</string>
+</resources>

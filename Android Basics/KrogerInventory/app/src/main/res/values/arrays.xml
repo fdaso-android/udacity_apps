@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_category_options">
+        <item>@string/baby</item>
+        <item>@string/baking</item>
+        <item>@string/beverages</item>
+        <item>@string/bread</item>
+        <item>@string/canned</item>
+        <item>@string/cereal</item>
+        <item>@string/dairy</item>
+        <item>@string/deli</item>
+        <item>@string/frozen</item>
+        <item>@string/meats</item>
+        <item>@string/misc</item>
+    </string-array>
+</resources>

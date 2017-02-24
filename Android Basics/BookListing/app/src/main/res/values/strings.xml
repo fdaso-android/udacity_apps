@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Listing</string>
+    <string name="search_hint">Search for books here!</string>
+    <string name="search">Search!</string>
+    <string name="empty_view_text">No books searched for yet.\nEnter a search in the edit box and press the Search Button to obtain a list of books!</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="no_books">No books found.</string>
+</resources>

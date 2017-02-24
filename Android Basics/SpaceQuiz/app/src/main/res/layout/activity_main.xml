@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/quizPicture_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quizimage1"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder_text"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_margin="12dp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_1"
+        android:id="@+id/checkBox1"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_2"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_3"
+        android:id="@+id/checkBox3"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="@android:color/black"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_4"
+        android:id="@+id/checkBox4"
+        android:layout_gravity="center_horizontal"
+        android:padding="4dp"
+        android:textColor="@android:color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/number_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_text_number"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"/>
+
+
+
+        <Button
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/previous"
+            android:onClick="previousQuestion"/>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/next"
+            android:onClick="nextQuestion"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_again"
+            android:id="@+id/playAgain_button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="playAgain"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignRight="@+id/next_button"
+                    android:layout_alignEnd="@+id/next_button">
+
+            <RadioButton android:id="@+id/true_button"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="@string/true_text"
+                         android:onClick="answerChoiceTrue"/>
+
+            <RadioButton android:id="@+id/false_button"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:onClick="answerChoiceFalse"
+                         android:text="@string/false_text"/>
+
+        </RadioGroup>
+    </RelativeLayout>
+</LinearLayout>
