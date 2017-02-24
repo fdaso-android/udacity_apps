@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Football Game Counter</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="twoPointConversion">2-Pt. Conversion</string>
+    <string name="field_goal">Field Goal</string>
+    <string name="safety">Safety</string>
+    <string name="reset">Reset</string>
+</resources>
